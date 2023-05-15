@@ -1,0 +1,4 @@
+HTTP/1.1=========> 
+ HTTP/1.1 relies on the transport layer to avoid buffer overflow, each new TCP connection requires a separate flow control mechanism. 
+HTTP/2=========>
+ HTTP/2 multiplexes streams within a single TCP connection, and will have to implement flow control in a different manner.
